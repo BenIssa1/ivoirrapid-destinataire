@@ -9,6 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        {/* Commment */}
         <Route exact path='/' component={Home} />
         <Route path='/search/:name' component={Details} />
       </Switch>
